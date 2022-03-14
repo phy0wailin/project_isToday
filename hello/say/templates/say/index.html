@@ -1,0 +1,7 @@
+{% extends 'say/layout.html' %}
+
+{% block body %}
+{% load static %}
+    <link rel="stylesheet" href="{% static 'say/styles.css'%}">
+    {{message}}
+{% endblock %}
